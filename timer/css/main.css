@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dosis/v19/HhyJU5sn9vOmLxNkIwRSjTVNWLEJN7MV3A.ttf)
+    format('truetype');
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dosis/v19/HhyJU5sn9vOmLxNkIwRSjTVNWLEJ0LQV3A.ttf)
+    format('truetype');
+}
+.alex-timer {
+  font-family: Dosis, Arial, sans-serif;
+}
+.alex-timer .title {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.alex-timer .desc {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.alex-timer .container_timer {
+  max-width: 50%;
+  margin: 0 auto;
+}
+.alex-timer .container_timer .timer_setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15%;
+}
+.alex-timer .container_timer .timer_setting .set_timer {
+  height: 1.7rem;
+  width: 1.7rem;
+}
+.alex-timer .container_timer .timer_setting #show_timer {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.alex-timer .container_timer .set_timer {
+  -webkit-box-shadow: 2px 2px 5px 1px #000000;
+  -moz-box-shadow: 2px 2px 5px 1px #000000;
+  box-shadow: 2px 2px 5px 1px #000000;
+  border: 1px solid transparent;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transition: 300ms ease-in-out all;
+  -moz-transition: 300ms ease-in-out all;
+  -ms-transition: 300ms ease-in-out all;
+  -o-transition: 300ms ease-in-out all;
+  transition: 300ms ease-in-out all;
+}
+.alex-timer .container_timer .set_timer:hover {
+  -webkit-box-shadow: 1px 1px 4px 0 #000000;
+  -moz-box-shadow: 1px 1px 4px 0 #000000;
+  box-shadow: 1px 1px 4px 0 #000000;
+  margin-top: 2px;
+  margin-left: 2px;
+  -webkit-transition: 300ms ease-in-out all;
+  -moz-transition: 300ms ease-in-out all;
+  -ms-transition: 300ms ease-in-out all;
+  -o-transition: 300ms ease-in-out all;
+  transition: 300ms ease-in-out all;
+}
+.alex-timer .container_timer .button_start {
+  text-align: center;
+}
+.alex-timer .container_timer #btn_start {
+  padding: 0.5rem 1rem;
+  color: whitesmoke;
+  background-color: #248e00;
+  letter-spacing: 0.1rem;
+}
+/*# sourceMappingURL=main.css.map */
